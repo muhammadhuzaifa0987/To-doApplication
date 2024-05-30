@@ -19,6 +19,7 @@ function addTodo() {
     // create Edit or delete btn
 
     var editBtn = document.createElement("button")
+    editBtn.setAttribute("onclick", "edittodo(this)")
     editBtn.innerHTML = "EDIT"
 
     var deleteBtn = document.createElement("button")
@@ -43,3 +44,10 @@ function delTodo(ele) {
 
     ele.parentNode.remove()
 }   
+function edittodo(ele){
+}
+var editVal=prompt("Enter your value",ele.previousSibling.nodeValue)
+console.log(editVal)
+ele.previousSibling.nodeValue= editVal
+
+                   
