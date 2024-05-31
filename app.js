@@ -44,7 +44,7 @@ function deleteAll() {
  var completeBtn = document.createElement("button")
  completeBtn.setAttribute("onclick", "completeTodo(this)")
  completeBtn.innerHTML = "COMPLETE"
- li.appendChild(completeBtn)
+
 
  todoParent.appendChild(li)
  todoinput.value = ""
