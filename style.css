@@ -4,8 +4,8 @@ body{
     width: 100vw;
 }
 #main{
-    margin-left: 40px;
-    font-weight: 2000;
+    text-align:center;
+    font-style:bold;
 }
 .container{
     border: 1px solid black;
@@ -17,7 +17,7 @@ body{
     margin-top: 100px;
     background: white;
 }
-h1{
+#heading{
     display: inline;
     margin-left: 140px;
     margin-top: 20px;
