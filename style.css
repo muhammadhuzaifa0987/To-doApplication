@@ -4,8 +4,8 @@ body{
     width: 100vw;
 }
 #main{
-    text-align:center;
-    font-style:bold;
+    text-align: center;
+    font-style: bold;
 }
 .container{
     border: 1px solid black;
@@ -17,7 +17,7 @@ body{
     margin-top: 100px;
     background: white;
 }
-#heading{
+#head{
     display: inline;
     margin-left: 140px;
     margin-top: 20px;
@@ -56,3 +56,7 @@ color: azure;
    background-color: rgb(42, 150, 127);
 }
 
+.completed {
+    text-decoration: line-through;
+    color: grey;
+  }
