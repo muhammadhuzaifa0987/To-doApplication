@@ -29,6 +29,7 @@ function addTodo() {
     console.log("deleteBtn", deleteBtn)
     li.appendChild(editBtn)
     li.appendChild(deleteBtn)
+    li.appendChild(completeBtn)
     todoParent.appendChild(li)
     todoinput.value = ""
 }
